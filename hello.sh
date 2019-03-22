@@ -1,4 +1,6 @@
 #!/bin/bash
 
-echo "Hello world!"
+echo -n "Your name? "
+read name
+echo "Hello ${name}!"
 
